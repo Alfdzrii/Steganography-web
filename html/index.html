@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid m-2">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar -->
+
+    <!-- welcome section -->
+    <section>
+      <div>
+        <h1>welcome</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non saepe
+          nostrum fugiat neque dignissimos culpa!
+        </p>
+      </div>
+    </section>
+    <!-- welcome section -->
+
+    <!-- input section -->
+    <section>
+      <!-- decode -->
+      <div>
+        <h2>check steganoghraphy</h2>
+        <input
+          type="file"
+          class="form-control"
+          id="filedecode"
+          accept="image/*"
+        />
+        <label for="filedecode"
+          >We recommend using the PNG or high resolution file</label
+        >
+        <button class="btn btn-primary" id="decode-btn" onclick="decode()">
+          check
+        </button>
+        <p>Result: <span id="decode-rslt"></span></p>
+      </div>
+      <!-- decode -->
+
+      <!-- encode -->
+      <div></div>
+      <!-- encode -->
+    </section>
+    <!-- input section -->
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"
+  ></script>
+</html>
