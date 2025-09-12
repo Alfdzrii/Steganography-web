@@ -1,3 +1,6 @@
-$spacer: 1.25;
+$spacer: 2rem !default;
+.p-xl-5 {
+  padding: 5rem !important;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
