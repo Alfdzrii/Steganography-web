@@ -1,3 +1,19 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.decode-container {
+}
+
+.input-file {
+  cursor: pointer;
+}
+
+/* footer */
+#footer {
+  background-color: #a2af9b;
+}
+.footer p {
+  font-size: small;
+  text-decoration: wavy;
+}

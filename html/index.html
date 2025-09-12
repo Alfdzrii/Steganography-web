@@ -6,40 +6,19 @@
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="style/index.css"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/style/index.css" />
     <title>Shsssttt!</title>
   </head>
   <body>
     <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid m-2">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <!-- nav bar -->
 
     <!-- welcome section -->
-    <section class="p-xl-5 bg-danger">
-      <div class="p-xl-5 bg-danger">
+    <section class="p-xl-5">
+      <div class="p-xl-5 my-5">
         <h1 class="text-center m-4">Tell me the secret message...</h1>
         <p class="text-center">
           Find or hide the secret message hidden in the image.
@@ -48,24 +27,77 @@
     </section>
     <!-- welcome section -->
 
-    <!-- input section -->
+    <!-- main section -->
     <section class="input-section">
       <!-- decode -->
-      <div class="decode-containermt-4 p-xl-5 bg-black">
-        <h2 class="text-center">check The Message</h2>
+      <div
+        class="decode-container mt-4 mx-2 mb-5 pt-xl-5 p-xl-5 rounded-3"
+        id="decode-container"
+      >
+        <h2 class="text-center my-4 p-xl-5">check The Message</h2>
         <div class="input-group mb-3 w-50 m-auto">
-          <input type="file" class="form-control" id="inputGroupFile02" />
-          <label class="input-group-text" for="inputGroupFile02">Upload</label>
+          <input
+            type="file"
+            class="input-file form-control"
+            id="inputGroupFile02"
+          />
         </div>
         <p>Result: <span id="decode-rslt"></span></p>
       </div>
       <!-- decode -->
 
       <!-- encode -->
-      <div></div>
+      <div
+        class="encode-container mt-4 mx-5 mb-5 p-xl-5 rounded-3"
+        id="encode-container"
+      >
+        <h2 class="text-center my-4">Hide The Message</h2>
+        <div class="input-group mb-3 w-50 m-auto">
+          <input type="file" class="form-control" id="inputGroupFile02" />
+          <label class="input-group-text" for="inputGroupFile02">Upload</label>
+        </div>
+        <p>Result: <span id="encode-rslt"></span></p>
+      </div>
       <!-- encode -->
     </section>
-    <!-- input section -->
+    <!-- main section -->
+
+    <footer class="footer bg-body-tertiary text-center p-3" id="footer">
+      <p>Copyright &copy; 2025</p>
+      <p>Created by Alfadzri Abhipraya</p>
+      <div>
+        <a href="https://github.com/Alfdzrii" class="mx-2">
+          <img
+            src="/img/github.svg "
+            alt="Alfdzrii"
+            id="github"
+            name="github"
+          />
+          <label for="github">Github</label>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/alfadzri-abhipraya-257a74321/"
+          class="mx-2"
+        >
+          <img
+            src="/img/linkedin.svg"
+            alt="Alfadzri Abhipraya"
+            id="linkedin"
+            name="linkedin"
+          />
+          <label for="linkedin">Linkedin</label>
+        </a>
+        <a href="https://www.instagram.com/alfdzrii_/?next=%2F" class="mx-2">
+          <img
+            src="/img/instagram.svg"
+            alt="@Alfdzrii_"
+            id="instagram"
+            name="instagram"
+          />
+          <label for="instagram">Instagram</label>
+        </a>
+      </div>
+    </footer>
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
