@@ -6,10 +6,11 @@
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      href="style/index.css"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
-    <title>Document</title>
+    <title>Shsssttt!</title>
   </head>
   <body>
     <!-- nav bar -->
@@ -28,10 +29,7 @@
               <a class="nav-link" href="#">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -40,34 +38,25 @@
     <!-- nav bar -->
 
     <!-- welcome section -->
-    <section>
-      <div>
-        <h1>welcome</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non saepe
-          nostrum fugiat neque dignissimos culpa!
+    <section class="">
+      <div class="p-xl-5 bg-danger">
+        <h1 class="text-center m-4">Tell me the secret message...</h1>
+        <p class="text-center">
+          Find or hide the secret message hidden in the image.
         </p>
       </div>
     </section>
     <!-- welcome section -->
 
     <!-- input section -->
-    <section>
+    <section class="input-section">
       <!-- decode -->
-      <div>
-        <h2>check steganoghraphy</h2>
-        <input
-          type="file"
-          class="form-control"
-          id="filedecode"
-          accept="image/*"
-        />
-        <label for="filedecode"
-          >We recommend using the PNG or high resolution file</label
-        >
-        <button class="btn btn-primary" id="decode-btn" onclick="decode()">
-          check
-        </button>
+      <div class="decode-containermt-4 p-xl-5 bg-black">
+        <h2 class="text-center">check The Message</h2>
+        <div class="input-group mb-3 w-50 m-auto">
+          <input type="file" class="form-control" id="inputGroupFile02" />
+          <label class="input-group-text" for="inputGroupFile02">Upload</label>
+        </div>
         <p>Result: <span id="decode-rslt"></span></p>
       </div>
       <!-- decode -->

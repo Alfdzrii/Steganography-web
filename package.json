@@ -1,0 +1,24 @@
+{
+  "name": "steganographic-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alfdzrii/Steganography-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alfdzrii/Steganography-web/issues"
+  },
+  "homepage": "https://github.com/Alfdzrii/Steganography-web#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.92.1"
+  }
+}
