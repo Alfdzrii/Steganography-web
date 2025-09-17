@@ -3,6 +3,7 @@
 }
 
 .decode-container {
+  background: linear-gradient(to right, #708993 36%, #715a5a);
 }
 
 .input-file {
@@ -11,9 +12,15 @@
 
 /* footer */
 #footer {
-  background-color: #a2af9b;
+  background: linear-gradient(to left, #708993 36%, #715a5a);
 }
 .footer p {
   font-size: small;
   text-decoration: wavy;
+}
+
+.decode-container,
+.encode-container {
+  padding-bottom: 12.5vh;
+  padding-top: 12.5vh;
 }
