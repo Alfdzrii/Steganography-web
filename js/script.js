@@ -1,10 +1,8 @@
 const { Alert } = require("bootstrap");
-
 document.addEventListener("DOMContentLoaded", function () {
   const decodeFile = document.getElementById("decodeFile");
   const decodeBtn = document.getElementById("decodeBtn");
   const decodeRslt = document.getElementById("decode-rslt");
-
   const encodeFile = document.getElementById("encodeFile");
   const encodeMsg = document.getElementById("encodeMSG");
   const encodeBtn = document.getElementById("encodeBtn");
@@ -73,4 +71,19 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
   });
+});
+
+// encode
+encodeBtn.addEventListener("click", () => {
+  const file = encodeFileInput.files[0];
+  const message = secretMessageInput.value;
+
+  if (!file) {
+    alert("there is no file to put the messages!");
+    return;
+  }
+
+  const messageWithDelimiter = message + delimiter;
+  let messageInBinary = "";
+  for (let i = 0; i < messageWithDelimiter.length; i++) {}
 });
