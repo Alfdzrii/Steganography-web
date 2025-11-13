@@ -3,7 +3,10 @@
 }
 
 .decode-container {
-  background: linear-gradient(to right, #708993 36%, #715a5a);
+  background: linear-gradient(to bottom, #000 36%, #5e5959);
+}
+#decode-container h2 {
+  color: #fff;
 }
 
 .input-file {
@@ -12,11 +15,12 @@
 
 /* footer */
 #footer {
-  background: linear-gradient(to left, #708993 36%, #715a5a);
+  background: linear-gradient(to bottom, #000 20%, #5e5959);
 }
 .footer p {
   font-size: small;
   text-decoration: wavy;
+  color: #fff;
 }
 
 .decode-container,
