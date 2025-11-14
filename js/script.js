@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   //   decode
   decodeBtn.addEventListener("click", () => {
-    const file = decodeFile.files[0];
+    const file = decodeFile;
     if (!file) {
       alert("select the picture");
       return;
@@ -73,17 +73,17 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// encode
-encodeBtn.addEventListener("click", () => {
-  const file = encodeFileInput.files[0];
-  const message = secretMessageInput.value;
+// // encode
+// encodeBtn.addEventListener("click", () => {
+//   const file = encodeFileInput.files[0];
+//   const message = secretMessageInput.value;
 
-  if (!file) {
-    alert("there is no file to put the messages!");
-    return;
-  }
+//   if (!file) {
+//     alert("there is no file to put the messages!");
+//     return;
+//   }
 
-  const messageWithDelimiter = message + delimiter;
-  let messageInBinary = "";
-  for (let i = 0; i < messageWithDelimiter.length; i++) {}
-});
+//   const messageWithDelimiter = message + delimiter;
+//   let messageInBinary = "";
+//   for (let i = 0; i < messageWithDelimiter.length; i++) {}
+// });
